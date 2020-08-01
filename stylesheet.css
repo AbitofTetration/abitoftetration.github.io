@@ -1,0 +1,259 @@
+@font-face {
+	font-family: Typewriter;
+	src: url('https://cdn.glitch.com/c1f55f1d-8e83-4c4b-8149-22aaf7214a19%2FMonospaceTypewriter.ttf?v=1572152901676');
+}
+
+* {
+	font-family: Typewriter;
+	user-select: none;
+}
+
+body, button {
+	font-size: 11px;
+}
+
+body {
+	color: #4f5957;
+}
+
+.achievementLocked, .achievementUnlocked {
+	width: 100;
+	height: 100;
+	border: 2px solid;
+	border-radius: 4px;
+	font-size: 11px;
+	text-align: center;
+	color: #fff;
+	text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
+}
+
+.achievementLocked {
+	border-color: #666;
+	background-color: #6666;
+}
+
+.achievementUnlocked {
+	border-color: #090;
+  color: #00ff00;
+	background-color: #0909;
+}
+
+currency {
+	color: black;
+	font-size: 30px;
+}
+
+.buy {
+	color: black;
+	background: #F2F2F2;
+	font-weight: bold;
+	font-family: Typewriter;
+	border: 1px solid #127A20;
+	width: 150px;
+	height: 25px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	border-radius: 4px;
+	font-size: 10px;
+	vertical-align: top;
+}
+
+.buy:hover {
+	color: #fff;
+	background: #5AC467;
+}
+
+.tabButton, .subtabButton {
+	color: black;
+	background: #e0e0e0;
+	font-weight: bold;
+	font-family: Typewriter;
+	border: 2px solid #4980cc;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	border-radius: 4px;
+	vertical-align: top;
+}
+
+.tabButton:hover, .subtabButton:hover {
+	color: #fff;
+	background: #4980cc;
+}
+
+.tabButton {
+	font-size: 20px;
+}
+
+.subtabButton {
+	font-size: 12px;
+	width: 150px;
+}
+
+.infinityTabButton {
+	color: white;
+	background: #1f1f1f;
+	font-family: Typewriter;
+	border: 2px solid #b67f33;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	border-radius: 4px;
+	font-size: 20px;
+	vertical-align: top;
+}
+
+.infinityTabButton:hover {
+	color: black;
+	background: #f30;
+}
+
+.eternityTabButton {
+	color: #b341e0;
+	background: #000;
+	font-family: Typewriter;
+	border: 2px solid #b341e0;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	border-radius: 4px;
+	font-size: 20px;
+	vertical-align: top;
+}
+
+.eternityTabButton:hover {
+	color: black;
+	background: #b341e0;
+}
+
+.energizeTabButton {
+	color: #d9e324;
+	background: #a87c0d;
+	font-family: Typewriter;
+	border: 2px solid #d9e324;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	border-radius: 4px;
+	font-size: 20px;
+	vertical-align: top;
+  box-shadow: inset 0px 0px 10px 0px #fff;
+}
+
+.energizeTabButton:hover {
+	color: black;
+	background: #d9e324;
+}
+
+.transcendTabButton {
+	color: #990000;
+	background: radial-gradient(#660000, #000066);
+	font-family: Typewriter;
+	border: 2px solid #990000;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	border-radius: 4px;
+	font-size: 20px;
+	vertical-align: top;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.transcendTabButton:hover {
+	color: #FF0000;
+	border: 2px solid #FF0000;
+	background: radial-gradient(#BB0000, #0000BB);
+  text-shadow: 0 0 3px #FF2222, 0 0 5px #2222FF;
+}
+
+.infinitizeTabButton {
+	color: #ffffff;
+	text-shadow: 0px 0px 3px #ffffff;
+	background: radial-gradient(circle, #ffffff, #000000 75%, #e59900 100%);
+	border: 2px solid #000000;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s
+}
+.infinitizeTabButton:hover {
+	color: #000000;
+	text-shadow: 0px 0px 6px #e59900, 0px 0px 6px #e59900, 0px 0px 6px #e59900, 0px 0px 6px #e59900, 0px 0px 6px #e59900, 0px 0px 6px #e59900;
+	cursor: pointer
+}
+
+.metaTabButton {
+	color: #ffffff;
+	text-shadow: 0px 0px 3px #000000;
+	background: radial-gradient(transparent, #ffffff),  linear-gradient(#cccc00, #00cccc 33%, #cc00cc 66%, #cccc00 100%);
+	border: 2px solid #ffffff;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	animation: meta 3s linear infinite;
+	background-size: 100% 300%;
+	transition-duration: 0.2s
+}
+.metaTabButton:hover {
+	text-shadow: 0px 0px 6px #000000;
+	cursor: pointer;
+}
+@keyframes meta { 
+	0%{
+	    background-position: 0% 0%, 0% 0%;
+	}
+	100%{
+	    background-position: 0% 0%, 300% 300%;
+	}
+}
+
+.cosmicTabButton {
+	color: #76adab;
+	background: radial-gradient(#507574, #3e5959);
+	font-family: Typewriter;
+	border: 2px solid #76adab;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	border-radius: 4px;
+	font-size: 20px;
+	vertical-align: top;
+  text-shadow: 0 0 4px #76adab, 0 0 6px #76adab;
+  box-shadow: 0px 0px 12px 0px #2eab91;
+}
+
+.cosmicTabButton:hover {
+	color: #81d4d1;
+	border: 2px solid #81d4d1;
+	background: radial-gradient(#72a3a2, #438f7f);
+  text-shadow: 1 1 5px #81d4d1,  1 1 8px #81d4d1;
+  box-shadow: 0px 0px 12px 0px #1fd1ac;
+}
+
+.eternitizeTabButton {
+	color: #ffffff;
+	text-shadow: 0px 0px 3px #ffffff;
+	background: radial-gradient(circle, #ffffff, #000000 75%, #b341e0 100%);
+	border: 2px solid #000000;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s
+}
+.eternitizeTabButton:hover {
+	color: #000000;
+	text-shadow: 0px 0px 6px #b341e0, 0px 0px 6px #b341e0, 0px 0px 6px #b341e0, 0px 0px 6px #b341e0, 0px 0px 6px #b341e0, 0px 0px 6px #b341e0;
+	cursor: pointer
+}
+
+.unfunityTabButton {
+	color: #b00;
+	background: radial-gradient(transparent, #000000), #AA0000;
+	font-family: Typewriter;
+	border: 2px solid #b00;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	border-radius: 4px;
+	font-size: 20px;
+	vertical-align: top;
+}
+
+.unfunityTabButton:hover {
+	color: black;
+	background: radial-gradient(transparent, #000000), #BB0000;
+  text-shadow: 0 0 3px #AA0000, 0 0 5px #AA0000, 0 0 3px #AA0000, 0 0 5px #AA0000, 0 0 7px #AA0000, 0 0 7px #AA0000, 0 0 7px #AA0000;
+}
